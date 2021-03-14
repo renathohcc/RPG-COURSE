@@ -11,6 +11,8 @@ public class AreaEntrance : MonoBehaviour
         if(nameTransition == PlayerController.instance.areaTransitionName){
             PlayerController.instance.transform.position = transform.position;
         }
+
+        UIFade.instace.FadeFromBlack();
     }
 
     // Update is called once per frame
